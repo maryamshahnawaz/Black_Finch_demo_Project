@@ -27,6 +27,12 @@ li {
   margin:0;
 }
 
+a {
+  color:white;
+}
+a:hover {
+  color:white;
+}
 /* img {
   display:block;
   width:100%;
@@ -50,10 +56,6 @@ i {
   color:white;
 }
 
-.header_paragraph {
-  margin-top: -30px;
-}
-
 .fa-arrow-right {
   color:orange;
   font-size: 1.5rem;
@@ -67,7 +69,7 @@ i {
   color:white;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 2.5rem;
   font-weight: 600;
   color:white;
@@ -91,6 +93,7 @@ nav a {
   font-size:1rem;
   font-weight: 50;
   margin-left: 50px;
+  margin-top: -15px;
 }
 
 header {
@@ -115,11 +118,11 @@ section {
 }
 
 .card-title {
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 .arrow {
   font-size: 1.1rem;
-
+  margin-top: 1rem;
 }
 
 .card {
