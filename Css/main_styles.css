@@ -27,10 +27,10 @@ li {
   margin:0;
 }
 
-img {
+/* img {
   display:block;
   width:100%;
-}
+} */
 
 body {
   font-size: 1.5rem;
@@ -40,4 +40,64 @@ body {
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 7rem;
+}
+
+.fas {
+  font-size: 3rem;
+}
+
+i {
+  color:white;
+}
+
+.header_paragraph {
+  margin-top: -30px;
+}
+
+.fa-arrow-right {
+  color:orange;
+  font-size: 1.5rem;
+}
+
+.nav-background {
+  background-color: rgb(21, 26, 53);
+}
+
+.navbar {
+  color:white;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color:white;
+}
+
+nav a {
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+
+.nav-link {
+  color:white;
+}
+
+.logo_img {
+  width:60px;
+  margin: 0 10px;
+}
+
+.logo {
+  font-size:1rem;
+  font-weight: 50;
+  margin-left: 50px;
+}
+
+header {
+  background: url('../assets/header_image.png');
+  min-height: 60vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  display:flex;
 }
